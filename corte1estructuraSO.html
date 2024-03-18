@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas Operativos</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto"><span class="logo__bold">Sistemas Operativos</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Sobre</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cortes</a>
+                    <a href="index.html" class="navegacion__enlace">Inicio</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Dónde aprender sistemas operativos se vuelve más fácil</h2>
+        </div>
+    </header>
+
+
+    <main class="contenedor">
+        <h3 class="centrar-texto">Estructura de un sistema operativo</h3>
+
+        
+
+        <p>Se considera la organización interna del sistema operativo y para ello debemos observar dos tipos de requisitos: </p>
+
+        <h3>1.- Requisitos del usuario:</h3>
+                
+                <ul>
+                    <li>Sistema fácil de usar y aprender</li>
+                    <li>Seguro</li>
+                    <li>Rápido</li>
+                    <li>Adecuado al uso al que se quiere destinar</li>
+                </ul>
+
+        <h3>2.- Requisitos de software:</h3>
+            
+                <ul>
+                    <li>Mantenimiento</li>
+                    <li>Forma de operación</li>
+                    <li>Restricciones de uso</li>
+                    <li>Eficiencia</li>
+                    <li>Tolerancia frente a errores</li>
+                    <li>Flexibilidad</li>
+                </ul>
+
+            
+
+                <p>A medida que fueron creciendo las necesidades de los usuarios y se perfeccionaron los sistemas, se hizo necesaria una mayor organización del software del sistema operativo, donde una parte del sistema contenía subpartes y esto organizado en forma de niveles.
+
+                    Es una estructura jerárquica, con mayor organización del software del sistema operativo.
+                    
+                    El sistema operativo se divide en partes o niveles, cada uno perfectamente definido y con un claro interface (comunicación) con el resto de los elementos.
+                    
+                    La 1ª estructura jerárquica o de niveles, la desarrolló Djikstra, utilizándose para fines didácticos, denominada THE (Technische Hogeschool, Eindhoven).  Una forma de ver este tipo de sistema es la denominada de anillos concéntricos o “rings”:</p>
+            
+            <img class="centrar" style="height: 50%; width: 65%;" src="img/structso.jpg" alt="mantenimiento preventivo">
+                    <p>De esta forma, las zonas más internas del sistema operativo o núcleo del sistema estarán más protegidas de accesos indeseados desde las capas más externas. Las capas más internas serán, por tanto, más privilegiadas que las externas.
+
+                        A continuación definiremos de manera breve cada uno de estos niveles que conforman el sistema operativo (nota: en el gráfico la quinta y última capa de “intérprete de comandos” está representada por un círculo aparte de los niveles, pero está interrelacionado con los demás).</p>
+            
+           
+                <h3>1.Núcleo (Kernell)</h3>
+                <p>Es la parte primordial del sistema operativo.  El núcleo o centro del sistema operativo administra todo el sistema, sincroniza todos los procesos.  A nivel de núcleo solo se trabaja con procesos.</p>
+           
+                <h3>2. Gestión de entrada/salida</h3>
+                <p>El sistema operativo administra los dispositivos externos a través de sus controladores.</p>
+
+                <h3>3. Gestión de memoria</h3>
+                <p>El sistema operativo administra todos los aspectos relativos a memoria real y memoria virtual.</p>
+
+                <h3>4. Sistemas de archivos</h3>
+                <p>El sistema operativo se ocupa de administrar los archivos del usuario a través de una estructura de directorios con algún tipo de organización.</p>
+
+                <h3>5. Intérprete de comandos</h3>
+
+                <p>Es un mecanismo de comunicación entre los usuarios y el sistema.  Lee las instrucciones del usuario y hace que se ejecuten las funciones del sistema solicitadas.</p>
+        
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-texto"><span class="logo__bold">Sistemas Operativos</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Sobre</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cortes</a>
+                    <a href="index.html" class="navegacion__enlace">Inicio</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/modernizr.js"></script>
+</body>
+</html>
